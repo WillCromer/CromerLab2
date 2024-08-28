@@ -9,6 +9,8 @@ int main()
 	float A;
 	float B;
 	float X;
+
+	cout << "Hello, my name is Will and I will help solve this equation for you!"
 	cout << "Please enter a value for A: ";
 	cin >> A;
 	cout << "A=" << A << endl;
