@@ -10,12 +10,20 @@ int main()
 	float B;
 	float X;
 
-	cout << "Hello, my name is Will and I will help solve this equation for you!"
-	cout << "Please enter a value for A: ";
+	cout << "Hello, my name is Will and I will help solve this equation for you:\n";
+	cout << "Ax + B = 0 for x\n\n";
+	
+	cout << "Please enter a value for A: \n";
 	cin >> A;
-	cout << "A=" << A << endl;
-	B = (A * 4) + 1;
-	cout << "And B=" << B << endl;
+	
+	cout << "Please enter a value for B: \n";
+	cin >> B;
+
+	cout << "\nSolving for " << A << "x+" << B << "=0 for x...\n\n";
+	
+	X = (0-B)/A;
+	cout<< "The answer is...\n";
+	cout << "x=" << X ;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
